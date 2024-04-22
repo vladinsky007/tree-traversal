@@ -1,0 +1,27 @@
+name: Doxygen Documentation
+
+on:
+  push:
+    tags:
+      - 'v*'  # Rulează când se creează un tag începând cu 'v' - de la versiune
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Doxygen
+        run: sudo apt-get install doxygen -y
+
+      - name: Generate Doxygen Documentation
+        run: |
+          mkdir docs
+          doxygen Doxyfile
+
+      - name: Archive Documentation
+        uses: actions/upload-artifact@v2
+        with:
+          name: documentation
+          path: docs
