@@ -1,0 +1,33 @@
+\hypertarget{classtree_1_1TestTreeMethods}{}\doxysection{tree.\+Test\+Tree\+Methods Class Reference}
+\label{classtree_1_1TestTreeMethods}\index{tree.TestTreeMethods@{tree.TestTreeMethods}}
+
+
+Inheritance diagram for tree.\+Test\+Tree\+Methods\+:
+% FIG 0
+
+
+Collaboration diagram for tree.\+Test\+Tree\+Methods\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtree_1_1TestTreeMethods_aaae8b0f2f853072d0bd2c31048ce18dd}\label{classtree_1_1TestTreeMethods_aaae8b0f2f853072d0bd2c31048ce18dd}} 
+def {\bfseries set\+Up} (self)
+\item 
+\mbox{\Hypertarget{classtree_1_1TestTreeMethods_a152789c7e9cffeb4bb1476fcc1f600e5}\label{classtree_1_1TestTreeMethods_a152789c7e9cffeb4bb1476fcc1f600e5}} 
+def {\bfseries test\+\_\+find\+\_\+existing} (self)
+\item 
+\mbox{\Hypertarget{classtree_1_1TestTreeMethods_a85b964ed2cba60a68c425a9c614399e0}\label{classtree_1_1TestTreeMethods_a85b964ed2cba60a68c425a9c614399e0}} 
+def {\bfseries test\+\_\+find\+\_\+non\+\_\+existing} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtree_1_1TestTreeMethods_acfa9d1b771894e3554c3f432d429971a}\label{classtree_1_1TestTreeMethods_acfa9d1b771894e3554c3f432d429971a}} 
+{\bfseries tree}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+tree.\+py\end{DoxyCompactItemize}
